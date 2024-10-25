@@ -1,6 +1,6 @@
-# App
+# Tic-Tac-Toe
 
-Ruby app.
+A traditional tic-tac-toe game played through the command line by 2 players.
 
 ## Dependencies
 
@@ -8,4 +8,4 @@ Ruby app.
 
 ## Usage
 
-Install deps: `gem install bundler && bundle install`.  Run `bundle exec rake` to run the tests, or `bundle exec rake run` to run the program.
+Install deps: `gem install bundler && bundle install`.  Run `bundle exec rake` to run the tests, or `bundle exec rake run` to run the game.
