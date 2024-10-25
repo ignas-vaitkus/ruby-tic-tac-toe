@@ -3,7 +3,7 @@
 require_relative 'space'
 
 # The board of the game
-class Board
+class Game
   attr_accessor :grid, :turn
 
   def initialize
