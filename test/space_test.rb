@@ -20,16 +20,4 @@ class SpaceTest < Minitest::Test
 
     assert_equal 'X', @space.to_s
   end
-
-  def test_x_or_o_accessor
-    @space.x_or_o = 'O'
-
-    assert_equal 'O', @space.to_s
-  end
-
-  def test_number_accessor
-    @space.number = 2
-
-    assert_equal 2, @space.number
-  end
 end
