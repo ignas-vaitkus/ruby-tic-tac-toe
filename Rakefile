@@ -1,4 +1,7 @@
-require 'rubocop/rake_task' # rubocop:disable Style/FrozenStringLiteralComment
+# frozen_string_literal: true
+
+require 'minitest/test_task'
+require 'rubocop/rake_task'
 
 task default: %w[lint test]
 
@@ -14,7 +17,7 @@ task :run do
   ruby 'main.rb'
 end
 
+Minitest::TestTask.create
+
 desc 'This task runs tests'
-task :test do
-  ruby 'test/app_test.rb'
-end
+task :test

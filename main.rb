@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-require_relative 'lib/app'
+require_relative 'lib/board'
 
-puts App.new.message
+Board.new.print
